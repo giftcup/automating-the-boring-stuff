@@ -3,13 +3,13 @@ num2 = int(input("Second number: "))
 
 operation = input("Select an operation from *, /, +, -: ")
 
-if operation == '*':
+if operation == "*":
     result = num1 * num2
-elif operation == '/' and num2 != 0:
+elif operation == "/" and num2 != 0:
     result = num1 / num2
-elif operation == '+':
+elif operation == "+":
     result = num1 + num2
-elif operation == '-':
+elif operation == "-":
     result = num1 - num2
 else:
     print("Operation is invalid")
